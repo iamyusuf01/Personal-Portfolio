@@ -4,24 +4,24 @@ import { FaChevronDown } from "react-icons/fa6";
 
 const PageNavList = () => {
   const pageList = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/" },
-    { name: "Blog", href: "/" },
-    { name: "Portfolio", href: "/" },
-    { name: "Blog Post", href: "/" },
+    { name: "Home", href: "/home" },
+    { name: "About", href: "/about" },
+    { name: "Blog", href: "/blog" },
+    { name: "Portfolio", href: "/portfolio" },
+    { name: "Blog Post", href: "/blogpost" },
     { name: "Portfolio Single", href: "/" },
-    { name: "Hire Me", href: "/" },
-    { name: "Start Here", href: "/" },
-    { name: "Styleguide", href: "/" },
-    { name: "Password Protected", href: "/" },
+    { name: "Hire Me", href: "/hireme" },
+    { name: "Start Here", href: "/starthere" },
+    { name: "Styleguide", href: "/style" },
+    { name: "Password Protected", href: "/password" },
     { name: "404 Not Found", href: "/" },
-    { name: "Licenses", href: "/" },
-    { name: "Changeblog", href: "/" },
+    { name: "Licenses", href: "/licenses" },
+    { name: "Changeblog", href: "/change" },
     { name: "Brower More Templates", href: "/" },
   ];
   return (
     <>
-      <div className="group relative">
+      <div className="group relative z-40">
         <div className="flex group justify-center items-center gap-2  ">
           <p className="">Pages</p>
           <FaChevronDown className="group-hover:-rotate-180 transition-all" />
