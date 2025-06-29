@@ -19,37 +19,56 @@ const SocialConnect = () => {
           <li>
             <Link href={""}>
               {" "}
-              <FaFacebook />{" "}
+              <FaFacebook
+                size={20}
+                className="cursor-pointer hover:scale-110 transition-all duration-200"
+              />{" "}
             </Link>
           </li>
           <li>
             <Link href={""}>
               {" "}
-              <FaTwitter />{" "}
+              <FaTwitter
+                size={20}
+                className="cursor-pointer hover:scale-110 transition-all duration-200"
+              />{" "}
             </Link>
           </li>
           <li>
             <Link href={""}>
               {" "}
-              <FaInstagram />{" "}
+              <FaInstagram
+                size={20}
+                className="cursor-pointer hover:scale-110 transition-all duration-200"
+              />{" "}
+            </Link>
+          </li>
+          <li>
+            <Link href={"https://www.linkedin.com/in/mdyusufansari/"} 
+            className="">
+              {" "}
+              <FaLinkedinIn
+                size={20}
+                className="cursor-pointer hover:scale-110 transition-all duration-200"
+              />{" "}
             </Link>
           </li>
           <li>
             <Link href={""}>
               {" "}
-              <FaLinkedinIn />{" "}
+              <FaYoutube
+                size={20}
+                className="cursor-pointer hover:scale-110 transition-all duration-200"
+              />{" "}
             </Link>
           </li>
           <li>
             <Link href={""}>
               {" "}
-              <FaYoutube />{" "}
-            </Link>
-          </li>
-          <li>
-            <Link href={""}>
-              {" "}
-              <FaGithub />{" "}
+              <FaGithub
+                size={20}
+                className="cursor-pointer hover:scale-110 transition-all duration-200"
+              />{" "}
             </Link>
           </li>
         </ul>
