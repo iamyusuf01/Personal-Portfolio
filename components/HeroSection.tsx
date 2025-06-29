@@ -11,8 +11,8 @@ const HeroSection = () => {
     <>
       <section>
         <div className="flex justify-center items-center gap-4 pt-6  bg-zinc-900 text-white">
-          <Image src={picture} alt="pic" className="mr-12 "  />
-          <div className="grid grid-cols-2 gap-12 justify-between absolute ml-8">
+          <Image src={picture} alt="pic" className="mr-12 relative "  />
+          <div className="grid grid-cols-2 gap-32 justify-items-center absolute">
             {/* Right Side */}
             <div className="realtive mt-10">
               <div className="w-18 h-1 bg-white mb-4"></div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
                 </div>
                 <div className="h-0.5 rounded-2xl bg-gray-400 transition-colors duration-300 group-hover:bg-white  w-36"></div>
               </div>
-              <hr className="mt-8" />
+              <hr className="mt-8 border-t-2 border-gray-600" />
               {/* My Work  */}
               <div className="mt-8">
                 <div>

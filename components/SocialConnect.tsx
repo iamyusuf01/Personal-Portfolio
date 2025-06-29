@@ -12,7 +12,7 @@ import {
 const SocialConnect = () => {
   return (
     <>
-      <hr className="mt-8" />
+      <hr className="mt-8 border-t-2 border-gray-600" />
       <div className="mt-4">
         <h2 className="uppercase font-semibold">Follow Me</h2>
         <ul className="flex gap-4 items-center mt-4">
