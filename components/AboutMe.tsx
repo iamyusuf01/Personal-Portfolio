@@ -9,8 +9,8 @@ const AboutMe = () => {
         {/* Left Side */}
         <div className="w-[380px]">
           <div className="flex items-center">
-            <div className="h-0.5 bg-blue-600 w-6 translate-transform -rotate-65"></div>
-            <h3 className="uppercase">About Me</h3>
+            <hr className=" w-6 border-t-3 border-blue-600 -rotate-70" />
+            <h3 className="uppercase font-bold gap-0 text-xl">About Me</h3>
           </div>
           <div className="py-8 ">
             <p className="text-3xl font-bold">
@@ -64,8 +64,8 @@ const AboutMe = () => {
         </div>
         {/* Line Bar*/}
       </div>
-      <hr color="white" className=" mx-32 border-t-2 border-gray-600 my-6"/>
-      <div>hell</div>
+      <hr className=" mx-32 border-t-2 border-gray-600 my-6" />
+      <div className="h-20"></div>
     </div>
   );
 };

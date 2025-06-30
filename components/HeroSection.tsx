@@ -5,13 +5,12 @@ import { FaArrowRight } from "react-icons/fa6";
 import picture from "../public/picture.png"; // Adjust the path as necessary
 import Link from "next/link";
 import SocialConnect from "@/components/SocialConnect";
-import AboutMe from "./AboutMe";
 const HeroSection = () => {
   return (
     <>
       <section>
-        <div className="flex justify-center items-center gap-4 pt-6  bg-zinc-900 text-white">
-          <Image src={picture} alt="pic" className="mr-12 relative "  />
+        <div className="flex justify-center items-center gap-4 pt-6 px-12  bg-zinc-900 text-white">
+          <Image src={picture} alt="pic" className="mr-12 relative " />
           <div className="grid grid-cols-2 gap-32 justify-items-center absolute">
             {/* Right Side */}
             <div className="realtive mt-10">
@@ -81,10 +80,6 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-      </section>
-
-      <section>
-         <AboutMe/>
       </section>
     </>
   );
