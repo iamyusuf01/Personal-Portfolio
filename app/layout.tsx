@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Developer X - Webflow",
-  description: "This a portfolio website for Developer X, showcasing skills and projects.",
+  description:
+    "This a portfolio website for Developer X, showcasing skills and projects.",
 };
 
 export default function RootLayout({
@@ -26,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        data-new-gr-c-s-check-loaded="14.1241.0"
+        data-new-gr-c-s-check-loaded="14.1242.0"
         data-gr-ext-installed=""
       >
         {children}

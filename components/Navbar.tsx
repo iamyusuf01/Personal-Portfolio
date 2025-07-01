@@ -39,10 +39,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <p>
-                {" "}
-                <MainNav />{" "}
-              </p>
+              <MainNav />{" "}
             </li>
             <li>
               <p> Cart </p>

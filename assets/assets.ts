@@ -3,14 +3,19 @@ import javascript from './javascript.png';
 import react from './react.png';
 import node from './node.png';
 import webflow from './webflow.png';
-
+import investment from './holders.png';
+import investor from './investor.png';
+import articals from './articals.png';
 export const assets = {
     html,
     javascript,
     react,
     node,
-    webflow
+    webflow,
+
+
 }
+ 
 
 
 export const skills = [
