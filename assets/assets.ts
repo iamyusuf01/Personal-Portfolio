@@ -84,3 +84,27 @@ export const aboutMyWorks = [
     //     jobTitle: 'VP of DevOps at Youtube',
     // },
 ]
+
+export const testimonials = [
+  {
+    id: 1,
+    img: pics, // put your image path here
+    company: "Google",
+    text: "John did an amazing work with our web-app, everything he did to optimize our software helped us reduce our loading speed by 56%",
+    name: "Andy Smith",
+  },
+  {
+    id: 2,
+    img: pics2,
+    company: "Microsoft",
+    text: "He improved our product performance and UX significantly. Highly recommended!",
+    name: "Sarah Johnson",
+  },
+  {
+    id: 3,
+    img: pics3,
+    company: "Amazon",
+    text: "His problem-solving skills are unmatched. Delivered ahead of time with great results.",
+    name: "Mark Williams",
+  },
+];
