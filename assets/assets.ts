@@ -7,13 +7,22 @@ import investment from './holders.png';
 import investor from './investor.png';
 import articals from './articals.png';
 
+import picture from '../public/picture.png'
 import pics from './pics.jpeg'
 import pics2 from './pics2.jpeg'
 import pics3 from './pics3.jpeg'
+import products from './products.jpeg'
+import pcImage from './pcImage.jpeg'
 
 import youtubeIcon from './youtube.png'
 import pinterestIcon from './pinterest.png'
 import googleIcon from './google.png'
+import vercel from './vercel.png'
+import github from './github.png'
+import hyper from './hyper.png'
+import codepen from './codepen.png'
+import vscode from './vscode.png'
+
 export const assets = {
     html,
     javascript,
@@ -25,9 +34,50 @@ export const assets = {
     pics3,
     youtubeIcon,
     pinterestIcon,
-    googleIcon
+    googleIcon,
+    vercel,
+    github,
+    vscode,
+    hyper,
+    codepen,
+    picture,
+    products,
+    pcImage
 
 }
+
+export const myTools = [
+    {
+        logo: github,
+        name: "GitHub",
+        title: "Discover what tools I use for work",
+        link: "https://github.com"
+    },
+    {
+        logo: vercel,
+        name: "Vercel",
+        title: "Discover what tools I use for work",
+        link: "https://vercel.com"
+    },
+    {
+        logo: vscode,
+        name: "VS Code",
+        title: "Discover what tools I use for work",
+        link: "https://code.visualstudio.com"
+    },
+    {
+        logo: codepen,
+        name: "Codepen",
+        title: "Discover what tools I use for work",
+        link: "https://codepen.io"
+    },
+    {
+        logo: hyper,
+        name: "Hyper",
+        title: "Discover what tools I use for work",
+        link: "https://hyper.is"
+    },
+]
 
 
 

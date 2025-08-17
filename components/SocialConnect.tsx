@@ -17,7 +17,12 @@ const SocialConnect = () => {
         <h2 className="uppercase font-semibold">Follow Me</h2>
         <ul className="flex gap-4 items-center mt-4">
           <li>
-            <Link href={""}>
+            <Link
+              href={""}
+              target="_blank"
+              rel="nooperner noreferrer"
+              className="transition-transform duration-300 group-hover:translate-x-4"
+            >
               {" "}
               <FaFacebook
                 size={20}
@@ -26,7 +31,12 @@ const SocialConnect = () => {
             </Link>
           </li>
           <li>
-            <Link href={""}>
+            <Link
+              href={""}
+              target="_blank"
+              rel="nooperner noreferrer"
+              className="transition-transform duration-300 group-hover:translate-x-4"
+            >
               {" "}
               <FaTwitter
                 size={20}
@@ -35,7 +45,12 @@ const SocialConnect = () => {
             </Link>
           </li>
           <li>
-            <Link href={""}>
+            <Link
+              href={""}
+              target="_blank"
+              rel="nooperner noreferrer"
+              className="transition-transform duration-300 group-hover:translate-x-4"
+            >
               {" "}
               <FaInstagram
                 size={20}
@@ -44,8 +59,12 @@ const SocialConnect = () => {
             </Link>
           </li>
           <li>
-            <Link href={"https://www.linkedin.com/in/mdyusufansari/"} 
-            className="">
+            <Link
+              href={"https://www.linkedin.com/in/mdyusufansari/"}
+              target="_blank"
+              rel="nooperner noreferrer"
+              className="transition-transform duration-300 group-hover:translate-x-4"
+            >
               {" "}
               <FaLinkedinIn
                 size={20}
@@ -54,7 +73,12 @@ const SocialConnect = () => {
             </Link>
           </li>
           <li>
-            <Link href={""}>
+            <Link
+              href={""}
+              target="_blank"
+              rel="nooperner noreferrer"
+              className="transition-transform duration-300 group-hover:translate-x-4"
+            >
               {" "}
               <FaYoutube
                 size={20}
@@ -63,7 +87,12 @@ const SocialConnect = () => {
             </Link>
           </li>
           <li>
-            <Link href={""}>
+            <Link
+              href={""}
+              target="_blank"
+              rel="nooperner noreferrer"
+              className="transition-transform duration-300 group-hover:translate-x-4"
+            >
               {" "}
               <FaGithub
                 size={20}

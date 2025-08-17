@@ -12,7 +12,7 @@ const MyPortfolio = () => {
     <div className="grid grid-cols-2 justify-items-center items-center bg-zinc-800 text-white py-10">
       <div className="items-center ml-32">
         {/* Left Side */}
-        <div className="flex items-center px-32">
+        <div className="flex items-center">
           <hr className=" w-6 border-t-3 border-blue-600 -rotate-70" />
           <p className="uppercase font-bold text-xm">My Portfolio</p>
         </div>
