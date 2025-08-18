@@ -22,7 +22,7 @@ const AboutMe = () => {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat.
             </p>
           </div>
-          <div className="group">
+          <div className="group  w-36 cursor-pointer">
             <div className="flex gap-2 items-center font-semibold mb-2 group ">
               <p className="font-semibold text-xm">More about me</p>
               <Link

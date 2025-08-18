@@ -136,11 +136,16 @@ const page = () => {
                     />
                     <h3 className="text-xl font-semibold mb-2">{tools.name}</h3>
                     <p className="text-sm text-gray-400">{tools.title}</p>
-                    <div className="group">
-                      <div className="flex gap-2 items-center font-semibold mb-2 pt-2 ">
-                        <p className=" font-light text-xm">Download Now</p>
-
-                        <FaArrowRight />
+                    <div className="group w-36 cursor-pointer pt-2">
+                      <div className="flex gap-2 items-center font-semibold mb-2 group ">
+                        <p className="font-extralight text-xm">Download now</p>
+                        <Link
+                          href={"/"}
+                          className="transition-transform duration-300 group-hover:translate-x-4"
+                        >
+                          {" "}
+                          <FaArrowRight />{" "}
+                        </Link>
                       </div>
                       <div className="h-0.5 rounded-2xl bg-gray-400 transition-colors duration-300 group-hover:bg-white  w-36"></div>
                     </div>
@@ -149,9 +154,10 @@ const page = () => {
               </div>
             ))}
           </div>
+          
         </div>
       </div>
-      <GetInTouch/>
+      <GetInTouch />
     </div>
   );
 };

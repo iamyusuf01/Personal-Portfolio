@@ -38,7 +38,7 @@ const HeroSection = () => {
                   lorem ip sdkbn oas c uc0 vgfdhiud9idefve9{" "}
                 </p>
               </div>
-              <div className="group">
+              <div className="group w-36 cursor-pointer">
                 <div className="flex gap-2 items-center font-semibold mb-2 group ">
                   <p>LEARN MORE</p>
                   <Link
@@ -61,7 +61,7 @@ const HeroSection = () => {
                     lorem ip sdkbn oas c uc0 vgfdhiud9idefve9{" "}
                   </p>
                 </div>
-                <div className="group">
+                <div className="group  w-36 cursor-pointer">
                   <div className="flex gap-2 items-center font-semibold mb-2 group ">
                     <p>BROWERS PORT</p>
                     <Link

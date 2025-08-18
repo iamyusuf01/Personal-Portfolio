@@ -3,9 +3,10 @@ import javascript from './javascript.png';
 import react from './react.png';
 import node from './node.png';
 import webflow from './webflow.png';
-import investment from './holders.png';
+import investment from './investment.png';
 import investor from './investor.png';
 import articals from './articals.png';
+import banking from './banking.png'
 
 import picture from '../public/picture.png'
 import pics from './pics.jpeg'
@@ -42,9 +43,70 @@ export const assets = {
     codepen,
     picture,
     products,
-    pcImage
+    pcImage,
+    articals,
+    crypto,
+    investment,
+    investor
 
 }
+
+export const myProjects = [
+    {
+        title: [
+            {
+                text1: 'React JS',
+                text2: 'Web Development'
+
+            }
+        ],
+        logo: '',
+        text: 'Defi X',
+        name: 'Crypto Website Development for Defi X',
+        image: investment,
+        
+    },
+    {
+        title: [
+            {
+                text1: 'React JS',
+                text2: 'Web Development'
+
+            }
+        ],
+        logo: '',
+        text: 'Dev X',
+        name: 'Agency Website Development for Defi X',
+        image: articals,
+        
+    },{
+        title: [
+            {
+                text1: 'Webflow',
+                text2: 'Web Development'
+
+            }
+        ],
+        logo: '',
+        text: 'Dark X',
+        name: 'Trading Website Development for Dark X',
+        image: investor,
+        
+    },{
+        title: [
+            {
+                text1: 'HTML/CSS',
+                text2: ' Web Development'
+
+            }
+        ],
+        logo: '',
+        text: 'Fintech X',
+        name: 'Banking Website Optimization for fintech X',
+        image: banking,
+        
+    },
+]
 
 export const myTools = [
     {
