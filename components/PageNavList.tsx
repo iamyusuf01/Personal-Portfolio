@@ -7,6 +7,7 @@ const PageNavList = () => {
     { name: "Home", href: "/home" },
     { name: "About", href: "/about" },
     { name: "Blog", href: "/blog" },
+    { name: "Contact", href: "/contact" },
     { name: "Portfolio", href: "/portfolio" },
     { name: "Blog Post", href: "/blogpost" },
     { name: "Portfolio Single", href: "/" },

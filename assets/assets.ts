@@ -7,6 +7,7 @@ import investment from './investment.png';
 import investor from './investor.png';
 import articals from './articals.png';
 import banking from './banking.png'
+import next_gen from './next_gen.png'
 
 import picture from '../public/picture.png'
 import pics from './pics.jpeg'
@@ -47,7 +48,8 @@ export const assets = {
     articals,
     crypto,
     investment,
-    investor
+    investor,
+    next_gen
 
 }
 
@@ -90,7 +92,7 @@ export const myProjects = [
         logo: '',
         text: 'Dark X',
         name: 'Trading Website Development for Dark X',
-        image: investor,
+        image: next_gen,
         
     },{
         title: [
