@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div className="">
       {/* Nice to Meet You */}
-      <div className="grid grid-cols-2 py-18 px-32  bg-zinc-900 text-white  ">
+      <div className="grid grid-cols-2 justify-items-center py-18 px-38  bg-zinc-900 text-white  ">
         {/* Left Side */}
         <div>
           <div className="h-1 w-20 bg-white"></div>

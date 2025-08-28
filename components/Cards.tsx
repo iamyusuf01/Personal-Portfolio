@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/carousel";
 
 const Cards = () => {
-  const scrollRef = React.useRef<HTMLDivElement>(null);
+  // const scrollRef = React.useRef<HTMLDivElement>(null);
   return (
     <>
       <div className=" bg-zinc-900 text-white py-20">

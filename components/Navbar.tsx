@@ -6,43 +6,43 @@ import { FaCode } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <header>
-      <div className="flex justify-around items-center px-12 pt-8 h-15 bg-zinc-900 text-white">
+      <div className="flex justify-between items-center px-32 pt-8 h-15 bg-zinc-900 text-white">
         <div className="pl-6 font-bold text-2xl group">
           <Link
             href={"/"}
             className="flex items-center gap-2 group-hover:scale-110 transition-all duration-200"
           >
             <FaCode size={22} color="blue" />
-            <h1>Developer X</h1>
+            <h1 >Developer X</h1>
           </Link>
         </div>
         <div>
           <ul className="flex justify-between items-center gap-5 cursor-pointer">
             <li>
               <Link href={"/"}>
-                <p>Home</p>
+                <p className="hover:scale-105 transition-all duration-200">Home</p>
               </Link>
             </li>
             <li>
               <Link href={"/about"}>
-                <p>About</p>
+                <p className="hover:scale-105 transition-all duration-200">About</p>
               </Link>
             </li>
             <li>
               <Link href={"/blog"}>
-                <p>Blog</p>
+                <p className="hover:scale-105 transition-all duration-200">Blog</p>
               </Link>
             </li>
             <li>
               <Link href={"/portfolio"}>
-                <p>Portfolio</p>
+                <p className="hover:scale-105 transition-all duration-200">Portfolio</p>
               </Link>
             </li>
             <li>
               <MainNav />{" "}
             </li>
             <li>
-              <p> Cart </p>
+              <p className="hover:scale-105 transition-all duration-200"> Cart </p>
             </li>
             <li className="hover:scale-110 transition-all duration-200">
               <p>

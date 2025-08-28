@@ -9,9 +9,9 @@ const HeroSection = () => {
   return (
     <>
       <section>
-        <div className="flex justify-center items-center gap-4 pt-6 px-12  bg-zinc-900 text-white">
+        <div className="flex justify-center gap-4 pt-6 px-12 bg-zinc-900 text-white">
           <Image src={picture} alt="pic" className="mr-12 relative " />
-          <div className="grid grid-cols-2 gap-32 justify-items-center absolute">
+          <div className="grid grid-cols-2 justify-between gap-28 absolute">
             {/* Right Side */}
             <div className="realtive mt-10">
               <div className="w-18 h-1 bg-white mb-4"></div>

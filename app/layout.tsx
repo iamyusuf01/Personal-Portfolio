@@ -24,7 +24,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${spaceGrotesk.className}`}
-        data-new-gr-c-s-check-loaded="14.1242.0"
+         data-new-gr-c-s-check-loaded="14.1242.0"
+        // data-new-gr-c-s-check-loaded="14.1242.0"
         data-gr-ext-installed=""
       >
         {children}
